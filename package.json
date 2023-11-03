@@ -1,0 +1,27 @@
+{
+  "name": "tft-application",
+  "private": true,
+  "version": "0.0.0",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "electron .",
+    "electron:build": "vite build & electron-builder build --config electron-builder.json"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "axios": "0.27.2",
+    "echarts": "^5.4.3",
+    "electron-reload": "^2.0.0-alpha.1",
+    "element-plus": "^2.3.12",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "electron": "^26.1.0",
+    "electron-builder": "^24.6.3",
+    "vite": "^4.4.5"
+  }
+}
